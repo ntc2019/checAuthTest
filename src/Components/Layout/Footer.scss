@@ -1,0 +1,14 @@
+.footer {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    a {
+        color: white;
+        margin-right: 10px;
+    }
+
+    background-color: gray;
+    padding: 20px 0;
+}

@@ -1,0 +1,40 @@
+.signup {
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    &__form {
+        width: 400px;
+        padding: 50px;
+        margin: 0 auto;
+        background-color: rgb(218, 152, 91);
+        border-radius: 20px;
+
+        .formGroup {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+
+            input {
+                padding: 10px;
+                border: none;
+                border-radius: 10px;
+                display: block;
+                margin-top: 10px;
+            }
+        }
+
+        button {
+            display: block;
+            margin: 0 auto;
+            margin-top: 30px;
+            padding: 10px;
+            font-size: 1.3rem;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    }
+}
